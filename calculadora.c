@@ -152,7 +152,8 @@ void area_triangulo(){
     scanf("%f", &altura);
     area = (base * altura) / 2;
     printf("El área del triángulo es: %.2f\n", area);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Areas();
 }
@@ -163,7 +164,8 @@ void area_circulo(){
     scanf("%f", &radio);
     area = 3.1416 * radio * radio;
     printf("El área del círculo es: %.2f\n", area);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Areas();
 }
@@ -176,7 +178,8 @@ void area_rectangulo(){
     scanf("%f", &altura);
     area = base * altura;
     printf("El área del rectángulo es: %.2f\n", area);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Areas();
 }
@@ -187,7 +190,8 @@ void area_cuadrado(){
     scanf("%f", &lado);
     area = lado * lado;
     printf("El área del cuadrado es: %.2f\n", area);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Areas();
 }
@@ -224,7 +228,8 @@ void volumen_esfera(){
     scanf("%f", &radio);
     volumen = (4/3) * 3.1416 * radio * radio * radio;
     printf("El volumen de la esfera es: %.2f\n", volumen);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Volumenes();
 }
@@ -239,7 +244,8 @@ void volumen_paralelepipedo(){
     scanf("%f", &alto);
     volumen = largo * ancho * alto;
     printf("El volumen del paralelepípedo es: %.2f\n", volumen);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Volumenes();
 }
@@ -250,7 +256,8 @@ void volumen_cubo(){
     scanf("%f", &lado);
     volumen = lado * lado * lado;
     printf("El volumen del cubo es: %.2f\n", volumen);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Volumenes();
 }
@@ -284,7 +291,8 @@ void celsius_a_kelvin(){
     scanf("%f", &celcius);
     kelvin = celcius + 273.15;
     printf("La temperatura en Kelvin es: %.2f\n", kelvin);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Temperatura();
 }
@@ -295,7 +303,8 @@ void kelvin_a_fahrenheit(){
     scanf("%f", &kelvin);
     fahrenheit = (kelvin - 273.15) * (9/5) + 32;
     printf("La temperatura en Fahrenheit es: %.2f\n", fahrenheit);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Temperatura();
 }
@@ -306,7 +315,8 @@ void fahrenheit_a_celsius(){
     scanf("%f", &fahrenheit);
     celcius = (fahrenheit - 32) * (5/9);
     printf("La temperatura en Celsius es: %.2f\n", celcius);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Temperatura();
 }
@@ -340,7 +350,8 @@ void pesos_a_dolares(){
     scanf("%f", &pesos);
     dolares = pesos / 3.900; 
     printf("La cantidad en dólares es: %.2f\n", dolares);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Monedas();
 }
@@ -351,7 +362,8 @@ void pesos_a_euros(){
     scanf("%f", &pesos);
     euros = pesos / 4.581; 
     printf("La cantidad en euros es: %.2f\n", euros);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Monedas();
 }
@@ -362,7 +374,8 @@ void dolares_a_pesos(){
     scanf("%f", &dolares);
     pesos = dolares * 3.900; 
     printf("La cantidad en pesos es: %.2f\n", pesos);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Monedas();
 }
@@ -373,7 +386,8 @@ void euros_a_pesos(){
     scanf("%f", &euros);
     pesos = euros * 4.581; 
     printf("La cantidad en pesos es: %.2f\n", pesos);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Monedas();
 }
@@ -384,7 +398,8 @@ void dolares_a_euros(){
     scanf("%f", &dolares);
     euros = dolares * 0.92; 
     printf("La cantidad en euros es: %.2f\n", euros);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Monedas();
 }
@@ -428,7 +443,8 @@ void decimal_a_binario(){
         i *= 10;
     }
     printf("El número binario es: %d\n", binario);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Sistemas_Numericos();
 }
@@ -443,7 +459,8 @@ void decimal_a_octal(){
         i *= 10;
     }
     printf("El número octal es: %d\n", octal);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Sistemas_Numericos();
 }
@@ -455,7 +472,8 @@ void decimal_a_hexadecimal(){
     scanf("%d", &decimal);
     sprintf(hexadecimal, "%X", decimal);
     printf("El número hexadecimal es: %s\n", hexadecimal);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Sistemas_Numericos();
 }
@@ -471,7 +489,8 @@ void binario_a_decimal(){
         i++;
     }
     printf("El número decimal es: %d\n", decimal);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Sistemas_Numericos();
 }
@@ -487,7 +506,8 @@ void octal_a_decimal(){
         i++;
     }
     printf("El número decimal es: %d\n", decimal);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Sistemas_Numericos();
 }
@@ -499,7 +519,8 @@ void hexadecimal_a_decimal(){
     scanf("%s", hexadecimal);
     sscanf(hexadecimal, "%X", &decimal);
     printf("El número decimal es: %d\n", decimal);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Sistemas_Numericos();
 }
@@ -559,7 +580,8 @@ void ordenamiento_arreglo(){
         printf("%d ", arreglo[i]);
     }
     printf("\n");
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Arreglos_Matrices();
 }
@@ -586,7 +608,8 @@ void buscar_valor_arreglo(){
     } else {
         printf("El valor %d no se encontró en el arreglo.\n", valor);
     }
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Arreglos_Matrices();
 }
@@ -625,7 +648,8 @@ void suma_matrices(){
         }
         printf("\n");
     }
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Arreglos_Matrices();
 }
@@ -642,7 +666,8 @@ void multiplicacion_matrices(){
     scanf("%d", &columnas2);
     if (columnas1 != filas2) {
         printf("Error: El número de columnas de la primera matriz debe ser igual al número de filas de la segunda matriz.\n");
-        system("pause");
+        printf("Preciona ENTER para continuar...");
+        getchar(); getchar();
         system("clear");
         Arreglos_Matrices();
         return;
@@ -683,7 +708,8 @@ void multiplicacion_matrices(){
         }
         printf("\n");
     }
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");    
     Arreglos_Matrices();
 }
@@ -719,7 +745,8 @@ void buscar_valor_matriz(){
     } else {
         printf("El valor %d no se encontró en la matriz.\n", valor);
     }
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Arreglos_Matrices();
 }
@@ -761,7 +788,8 @@ void distancia_entre_puntos(){
     scanf("%f %f", &x2, &y2);
     distancia = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
     printf("La distancia entre los puntos es: %.2f\n", distancia);
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Varios();
 }
@@ -788,7 +816,8 @@ void raices_cuadratica(){
         printf("Raíz 1: %.2f + %.2fi\n", real, imag);
         printf("Raíz 2: %.2f - %.2fi\n", real, imag);
     }
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Varios();
 }
@@ -806,7 +835,8 @@ void factorial(){
         }
         printf("El factorial de %d es: %llu\n", n, factorial);
     }
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Varios();
 }
@@ -823,7 +853,8 @@ void fibonacci(){
         t2 = siguienteTermino;
     }
     printf("\n");
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Varios();
 }
@@ -847,7 +878,8 @@ void primo(){
     } else {
         printf("El número %d no es primo.\n", n);
     }
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Varios();
 }
@@ -873,7 +905,8 @@ void numero_amigos(){
     } else {
         printf("Los números %d y %d no son amigos.\n", num1, num2);
     }
-    system("pause");
+    printf("Preciona ENTER para continuar...");
+    getchar(); getchar();
     system("clear");
     Varios();
 }
